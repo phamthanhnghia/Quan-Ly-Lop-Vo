@@ -28,12 +28,12 @@
                 <form class="form-horizontal" role="form" method="POST" action="{{ route('login') }}">
                         {{ csrf_field() }}
                     <fieldset>
-                        <div class="form-group">
+                        <div class="form-group" style="margin: 20px 0;">
                             <input id="email" class="input-login" type="email" name="email" value="" required autofocus>
                         </div>
 
 
-                        <div class="form-group">
+                        <div class="form-group" style="margin: 5px 0;">
                             <input id="password" class="input-login" type="password"  name="password" required>
                         </div>
                         <div class="checkbox">
